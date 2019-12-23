@@ -1,0 +1,139 @@
+body {
+  background-color: #ebebeb;
+  font-family: "Open Sans", sans-serif;
+  line-height: 145%;
+}
+
+/* REUSABLE */
+
+h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #dd5555;
+  font-size: 180%;
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(126, 126, 126);
+  font-weight: bold;
+  font-size: 140%;
+}
+
+p {
+  text-align: justify;
+  color: rgb(126, 126, 126);
+}
+
+header,
+section,
+article {
+  margin: 2em;
+  width: 27%;
+  background-color: white;
+  margin-left: 35%;
+  padding: 2em;
+  border-radius: 5px;
+  -webkit-box-shadow: 9px 11px 7px -9px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 9px 11px 7px -9px rgba(0, 0, 0, 0.35);
+  box-shadow: 9px 11px 7px -9px rgba(0, 0, 0, 0.35);
+}
+
+/* HEADER */
+
+header {
+  text-align: center;
+}
+
+header img {
+  border-radius: 50%;
+  width: 130px;
+  border: rgb(190, 190, 190) solid 4px;
+}
+
+header a {
+  color: white;
+  background-color: #dd5555;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* ARTICLE */
+
+article li {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+article ul {
+  width: 70%;
+  margin-left: 15%;
+  padding: 0;
+}
+
+article a {
+  text-decoration: none;
+}
+
+article span,
+article p {
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+}
+
+article span {
+  font-size: 150%;
+}
+
+article p {
+  margin: 2px;
+}
+
+/* SECTION */
+
+section h2 span {
+  background-color: rgb(216, 216, 216);
+}
+
+section article {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+section img {
+  width: 110px;
+}
+
+section h3 {
+  margin: 0 0 30px 0;
+  text-align: center;
+  color: rgb(126, 126, 126);
+}
+
+.description {
+  margin: 0 20px;
+  display: inline-block;
+}
+
+section article {
+    margin-bottom: 80px;
+}
+
+section p {
+  line-height: 180%;
+  color: rgb(119, 119, 119);
+}
+
+section h2 {
+  margin: 0 0 50px 0;
+}
