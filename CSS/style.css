@@ -29,7 +29,7 @@ p {
 
 header,
 section,
-article {
+article , .warning {
   margin: 2em;
   width: 27%;
   background-color: white;
@@ -64,32 +64,32 @@ header a {
 
 /* ARTICLE */
 
-article li {
+.warning li {
   display: inline-block;
   margin: 20px;
   text-align: center;
 }
-article ul {
+.warning ul {
   width: 70%;
   margin-left: 15%;
   padding: 0;
 }
 
-article a {
+.warning a {
   text-decoration: none;
 }
 
-article span,
-article p {
+.warning span,
+.warning p {
   color: rgb(190, 190, 190);
   text-decoration: none;
 }
 
-article span {
+.warning span {
   font-size: 150%;
 }
 
-article p {
+.warning p {
   margin: 2px;
 }
 
